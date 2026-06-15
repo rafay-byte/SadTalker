@@ -1,0 +1,140 @@
+# ══════════════════════════════════════════
+# Auto-generated .gitignore
+# ══════════════════════════════════════════
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+*.whl
+
+# ── Virtual Environments ──
+venv/
+.venv/
+.venv1/
+env/
+ENV/
+sadtalker_env/
+rafay/
+
+# ── IDE ──
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# ── OS ──
+.DS_Store
+Thumbs.db
+desktop.ini
+__MACOSX/
+
+# ── Testing ──
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# ── Node ──
+node_modules/
+package-lock.json
+yarn.lock
+
+# ── Logs ──
+*.log
+logs/
+
+# ── Environment / Secrets ──
+.env
+.env.*
+*.pem
+*.key
+api_keys
+secrets.json
+credentials.json
+service_account.json
+token.json
+massive-current-*.json
+
+# ── Model Weights & Checkpoints ──
+*.pth
+*.pt
+*.onnx
+*.h5
+*.hdf5
+*.pb
+*.tflite
+*.safetensors
+*.ckpt
+*.bin
+*.pkl
+*.pickle
+*.joblib
+*.npy
+*.npz
+
+# ── Large Data Files ──
+*.rar
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.gz
+*.bz2
+*.xz
+*.parquet
+*.feather
+*.csv
+
+# ── Media (large) ──
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wmv
+*.flv
+*.webm
+*.mp3
+*.wav
+*.flac
+
+# ── Datasets & Large Directories ──
+datasets/
+dataset/
+checkpoints/
+runs/
+wandb/
+
+# ── Executables ──
+*.exe
+*.dll
+chromedriver*
+
+# ── Database ──
+*.sqlite
+*.db
+*.sql
+
+# ── Project-Specific Large Files ──
+checkpoints\mapping_00109-model.pth.tar  # 148.6 MB
+checkpoints\mapping_00229-model.pth.tar  # 148.3 MB
+checkpoints\SadTalker_V0.0.2_256.safetensors  # 691.5 MB
+checkpoints\SadTalker_V0.0.2_512.safetensors  # 691.5 MB
+checkpoints\gfpgan\weights\alignment_WFLW_4HG.pth  # 184.7 MB
+checkpoints\gfpgan\weights\detection_Resnet50_Final.pth  # 104.4 MB
+checkpoints\gfpgan\weights\GFPGANv1.4.pth  # 332.5 MB
+checkpoints\gfpgan\weights\parsing_parsenet.pth  # 81.4 MB
+gfpgan\weights\alignment_WFLW_4HG.pth  # 184.7 MB
+gfpgan\weights\detection_Resnet50_Final.pth  # 104.4 MB
+gfpgan\weights\parsing_parsenet.pth  # 81.4 MB
